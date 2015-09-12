@@ -33,7 +33,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
 }
 
 h1,
@@ -478,3 +479,37 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+
+/*----------------------OUR TEAM START--------------------------*/
+.team-member {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+ul.social-buttons li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+    background-color: #f05f40;
+}
+
+
+/*----------------------OUR TEAM END--------------------------*/
